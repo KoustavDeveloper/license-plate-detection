@@ -5,7 +5,7 @@ import pytesseract
 import os
 
 # Specify the path to the tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\Lenovo\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Function to display an image and wait for a key press
 def display_image(window_name, image):
